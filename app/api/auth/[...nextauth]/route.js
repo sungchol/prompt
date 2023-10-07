@@ -1,7 +1,7 @@
 // 구글인증
 import NextAuth from "next-auth/next";
 import GoogleProvider from "next-auth/providers/google";
-import User from "@models/User";
+import User from "@models/user";
 import connectDB from "@utils/database";
 
 const handler = NextAuth({
